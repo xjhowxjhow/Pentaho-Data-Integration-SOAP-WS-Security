@@ -10,6 +10,10 @@
     <h2>Detalhes Técnicos</h2>
     <h3>UsernameToken</h3>
     <p>A lógica para geração do Password Digest foi implementada no step Java Class, na função pública: <br><br><code>public boolean processRow(StepMetaInterface smi, StepDataInterface sdi) throws KettleException{}</code>.<br><br> A função foi construída utilizando Java e segue as especificações da OASIS. O Password Digest é gerado a partir do algoritmo SHA-1, que cria um hash da concatenação dos valores de Nonce, Created e Password. Em seguida, o hash é codificado em Base64.</p>
+    <br>
+    <code> Password_Digest = Base64 ( SHA-1 ( nonce + created + password ) ) </code>
+     <br>
+     <br>
     <p>Os seguintes campos é retornado para utilização e geração do Password Digest:</p>
     <ul>
       <li>Password: Senha utilizada na geração do Password Digest.</li>
