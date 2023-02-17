@@ -27,6 +27,6 @@
     <h2>Utilização</h2>
     <p>Para utilizar este custom-step, basta adicioná-lo ao fluxo de transformação do Pentaho e configurar o ÚNICO campo de entrada "PASSWORD". O resultado da geração do Password Digest será armazenado no campo "digest".</p>
     <h2>Dificuldades Encontradas</h2>
-    <p>Durante o desenvolvimento deste custom-step, enfrentamos dificuldades em encontrar informações sobre a integração do Pentaho com SOAP. No entanto, após pesquisa aprofundada e testes, conseguimos criar este gerador de Password Digest e TimeStamp em conformidade com as especificações da OASIS.</p>
+    <p>Durante o desenvolvimento deste custom-step, enfrentei dificuldades em encontrar informações sobre a integração do Pentaho com SOAP. No entanto, após pesquisa aprofundada e testes, consegui criar este gerador de Password Digest e TimeStamp em conformidade com as especificações da OASIS.</p>
     <h2>Conclusão</h2>
     <p>Com este custom-step, é possível gerar Password Digests e TimeStamps para requisições SOAP de forma rápida e fácil, seguindo as especificações da OASIS Web Services Security Username Token Profile Version 1.1.1. A implementação foi realizada no step Java Class, que é reconhecido pelo PDI no fluxo de steps, permitindo uma integração flexível e personalizada.<p>
